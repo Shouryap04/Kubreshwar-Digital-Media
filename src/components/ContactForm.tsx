@@ -75,7 +75,7 @@ const ContactForm = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-1">Email</h3>
-                  <p className="text-dark-light">info@kubreshwar.com</p>
+                  <p className="text-dark-light">kubreshwarmedia@gmail.com</p>
                 </div>
               </div>
               
@@ -87,7 +87,7 @@ const ContactForm = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-1">Phone</h3>
-                  <p className="text-dark-light">+91 98765 43210</p>
+                  <p className="text-dark-light">+91 7500741215</p>
                 </div>
               </div>
             </div>

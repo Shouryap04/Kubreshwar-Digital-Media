@@ -9,6 +9,9 @@ const Logo = () => {
         alt="Kubreshwar Media and Design Services" 
         className="h-10 md:h-12"
       />
+      <span className="text-xl md:text-2xl font-heading font-bold text-brand-teal">
+        <span className="text-brand">K</span>ubreshwar
+      </span>
     </div>
   );
 };
