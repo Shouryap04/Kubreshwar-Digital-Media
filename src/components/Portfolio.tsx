@@ -3,40 +3,40 @@ import { useEffect, useRef } from "react";
 
 const portfolioItems = [
   {
-    title: "Brand Identity Design",
+    title: "Etawah Tourism Campaign",
     category: "Graphic Design",
     imageUrl: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80",
-    description: "Complete brand identity redesign for a tech startup."
+    description: "Complete brand identity and promotional materials for Etawah Tourism initiative."
   },
   {
-    title: "Product Launch Video",
+    title: "Diwali Festival Highlights",
     category: "Video Editing",
     imageUrl: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=800&q=80",
-    description: "Promotional video for a new product launch campaign."
+    description: "Event coverage and highlight reel for annual Diwali celebration in Uttar Pradesh."
   },
   {
-    title: "E-commerce Website",
+    title: "TechStart India Website",
     category: "Web Development",
     imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
-    description: "Full-featured e-commerce platform with payment integration."
+    description: "Responsive website design and development for tech startup incubator."
   },
   {
-    title: "Corporate Photoshoot",
+    title: "Artisan Crafts Photoshoot",
     category: "Promotional Shoots",
     imageUrl: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=800&q=80",
-    description: "Professional photoshoot for corporate team and office space."
+    description: "Product photography for handcrafted items from local artisans."
   },
   {
-    title: "Social Media Campaign",
+    title: "EventHub Launch Campaign",
     category: "Social Media",
     imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
-    description: "Multi-platform social media campaign that increased engagement by 200%."
+    description: "Multi-platform social media campaign that increased event registrations by 200%."
   },
   {
-    title: "Animated Logo Intro",
+    title: "Kubreshwar Media Showreel",
     category: "Video Editing",
     imageUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80",
-    description: "Custom animated logo intro sequence for video content."
+    description: "Company showreel showcasing our best work across multiple services."
   },
 ];
 
