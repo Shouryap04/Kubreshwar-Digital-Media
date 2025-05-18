@@ -19,21 +19,21 @@
     --primary: 24 83% 54%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 180 20% 96%;
+    --secondary-foreground: 165 42% 21%;
 
-    --muted: 210 40% 96.1%;
+    --muted: 180 20% 96%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 180 20% 96%;
+    --accent-foreground: 165 42% 21%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 165 42% 21%;
 
     --radius: 0.5rem;
   }
@@ -44,7 +44,7 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans;
+    @apply bg-light-blue text-foreground font-sans;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -64,7 +64,7 @@
   }
 
   .btn-secondary {
-    @apply inline-flex items-center px-6 py-3 rounded-md bg-transparent border-2 border-brand text-dark font-medium transition-colors hover:bg-brand/10;
+    @apply inline-flex items-center px-6 py-3 rounded-md bg-transparent border-2 border-brand-teal text-dark font-medium transition-colors hover:bg-brand-teal/10;
   }
 }
 

@@ -37,7 +37,7 @@ const Navbar = () => {
     >
       <div className="container-custom flex items-center justify-between">
         <a href="#home" className="flex items-center">
-          <span className="text-xl md:text-2xl font-heading font-bold text-dark">
+          <span className="text-xl md:text-2xl font-heading font-bold text-brand-teal">
             <span className="text-brand">K</span>ubreshwar
             <span className="hidden sm:inline"> Media</span>
           </span>
@@ -49,7 +49,7 @@ const Navbar = () => {
             <a 
               key={item.name}
               href={item.href}
-              className="font-medium text-dark hover:text-brand transition-colors"
+              className="font-medium text-brand-teal hover:text-brand transition-colors"
             >
               {item.name}
             </a>
@@ -60,7 +60,7 @@ const Navbar = () => {
         <div className="md:hidden">
           <button 
             onClick={toggleMenu}
-            className="text-dark hover:text-brand"
+            className="text-brand-teal hover:text-brand"
             aria-label={isOpen ? "Close menu" : "Open menu"}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -80,7 +80,7 @@ const Navbar = () => {
             <a 
               key={item.name}
               href={item.href}
-              className="text-xl font-medium text-dark hover:text-brand py-2"
+              className="text-xl font-medium text-brand-teal hover:text-brand py-2"
               onClick={() => setIsOpen(false)}
             >
               {item.name}

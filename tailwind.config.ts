@@ -58,16 +58,19 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				brand: {
-					DEFAULT: '#F97316', // Orange
+					DEFAULT: '#F97316', // Orange from logo
 					dark: '#EA580C',    // Darker orange
+					teal: '#1F4D46',    // Teal/dark green from logo
+					tealDark: '#153935', // Darker teal
 				},
 				dark: {
-					DEFAULT: '#222222', // Dark gray/almost black
-					light: '#333333',   // Lighter dark
+					DEFAULT: '#1F4D46', // Teal/dark green from logo
+					light: '#2A5A52',   // Lighter teal
 				},
 				light: {
 					DEFAULT: '#FFFFFF', // White
-					muted: '#F5F5F5',   // Light gray
+					muted: '#E5F0F2',   // Light blue tint from logo background
+					blue: '#D6E8EC',    // Light blue from logo background
 				}
 			},
 			fontFamily: {

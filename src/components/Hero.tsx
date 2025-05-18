@@ -3,15 +3,15 @@ import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-b from-light to-light-muted">
+    <section id="home" className="pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-b from-light-blue to-light-muted">
       <div className="container-custom">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-12">
           <div className="md:w-1/2 animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              <span className="text-brand">Creativity</span> Meets Precision
+              <span className="text-brand">Creativity</span> Meets <span className="text-brand-teal">Precision</span>
             </h1>
             
-            <p className="text-lg md:text-xl text-dark-light mb-8 max-w-lg">
+            <p className="text-lg md:text-xl text-brand-teal mb-8 max-w-lg">
               We transform your ideas into compelling visual stories that captivate your audience and elevate your brand.
             </p>
             
@@ -30,7 +30,7 @@ const Hero = () => {
             <div className="absolute -top-8 -left-8 w-32 h-32 bg-brand/10 rounded-full blur-2xl"></div>
             <div className="absolute -bottom-8 -right-8 w-40 h-40 bg-brand/20 rounded-full blur-3xl"></div>
             
-            <div className="bg-dark rounded-lg p-6 relative z-10 shadow-xl">
+            <div className="bg-brand-teal rounded-lg p-6 relative z-10 shadow-xl">
               <div className="grid grid-cols-2 gap-3">
                 <div className="aspect-square bg-brand/20 rounded-md flex items-center justify-center">
                   <svg className="w-10 h-10 text-brand" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
