@@ -4,34 +4,29 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 
 const testimonials = [
   {
-    name: "Priya Sharma",
-    title: "Marketing Director, TechStart India",
-    quote: "Kubreshwar Media transformed our brand identity with exceptional design work. Their team's creativity and attention to detail exceeded our expectations.",
-    avatar: "https://randomuser.me/api/portraits/women/68.jpg"
+    name: "Adarsh Sikarwar",
+    title: "Founder, Maitree Group & Co. (Event Management Company)",
+    quote: "Working with Kubreshwar Media & Design Services was a total game-changer for our events. Unki creativity aur professionalism ne humare shows ko next level tak le jaane m help kari. From graphics to videos, sab kuch top-notch tha. Truly happy with their work – highly recommend karunga!"
   },
   {
-    name: "Rahul Verma",
-    title: "CEO, EventHub",
-    quote: "The promotional videos created by Kubreshwar Media helped us increase event registrations by 40%. Their video editing skills are truly remarkable.",
-    avatar: "https://randomuser.me/api/portraits/men/32.jpg"
+    name: "Prashant Kumar",
+    title: "Manager, Multi Brand Outlet",
+    quote: "Bahut hi smooth experience tha with Kubreshwar Media. They helped us with our social media marketing and poster designs – sab kuch time par mila and quality bhi badiya thi. Customers bhi impressed hue. Inko kaam dena was the best decision!"
   },
   {
-    name: "Anjali Patel",
-    title: "Founder, Artisan Crafts",
-    quote: "Our e-commerce website developed by Kubreshwar Media has received countless compliments for its user-friendly interface and beautiful design.",
-    avatar: "https://randomuser.me/api/portraits/women/65.jpg"
+    name: "Gaurav Kumar Porwal",
+    title: "Director, St. Francis Academy",
+    quote: "Kubreshwar Media ke saath kaam karke humein bahut accha laga. They handled our school's promotional video and design work with full dedication. Baccho ke moments ko beautifully capture kiya. Very professional and cooperative team. Highly appreciated!"
   },
   {
-    name: "Vikram Singh",
-    title: "Event Manager, Cultural Festivals UP",
-    quote: "Working with Kubreshwar Media on our festival promotions has been a game-changer. Their photography and social media campaigns drove record attendance.",
-    avatar: "https://randomuser.me/api/portraits/men/42.jpg"
+    name: "Aditi Gupta",
+    title: "Associate Manager Projects, NTPC School of Business",
+    quote: "Their team delivered exactly what we needed – on time and with proper quality. Jo visual content banaya unhone, usne hamare sessions ko aur engaging bana diya. Communication bhi clear tha. Bahut achha experience tha overall."
   },
   {
-    name: "Neha Gupta",
-    title: "Director, Etawah Tourism Board",
-    quote: "The tourism campaign created by Kubreshwar Media showcased our city in a completely new light. We've seen a 25% increase in visitors since the launch.",
-    avatar: "https://randomuser.me/api/portraits/women/45.jpg"
+    name: "Kriti Gupta",
+    title: "Event Head, Lords of Event",
+    quote: "Event ke creatives aur videos ke liye Kubreshwar Media se better option nahi tha. Inka design sense and delivery speed dono hi impressive the. Har baar jab kaam diya, they delivered perfectly. Bilkul stress-free experience tha!"
   }
 ];
 
@@ -93,16 +88,9 @@ const Testimonials = () => {
                     </svg>
                   </div>
                   <p className="text-dark-light mb-6 flex-grow">"{testimonial.quote}"</p>
-                  <div className="flex items-center">
-                    <img
-                      src={testimonial.avatar}
-                      alt={testimonial.name}
-                      className="w-12 h-12 rounded-full object-cover mr-4"
-                    />
-                    <div>
-                      <h4 className="font-bold">{testimonial.name}</h4>
-                      <p className="text-sm text-dark-light">{testimonial.title}</p>
-                    </div>
+                  <div>
+                    <h4 className="font-bold">{testimonial.name}</h4>
+                    <p className="text-sm text-dark-light">{testimonial.title}</p>
                   </div>
                 </div>
               </CarouselItem>
