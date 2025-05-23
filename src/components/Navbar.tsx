@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import { cn } from "@/lib/utils";
 import { Menu, X } from 'lucide-react';
+import Logo from './Logo';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,8 +39,7 @@ const Navbar = () => {
       <div className="container-custom flex items-center justify-between">
         <a href="#home" className="flex items-center">
           <span className="text-xl md:text-2xl font-heading font-bold text-brand-teal">
-            <span className="text-brand">K</span>ubreshwar
-            <span className="hidden sm:inline"> Media</span>
+            <span className="text-brand">K</span>ubreshwar Media and Design Services
           </span>
         </a>
 
