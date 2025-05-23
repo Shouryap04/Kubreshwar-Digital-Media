@@ -27,6 +27,11 @@ const testimonials = [
     name: "Kriti Gupta",
     title: "Event Head, Lords of Event",
     quote: "Event ke creatives aur videos ke liye Kubreshwar Media se better option nahi tha. Inka design sense and delivery speed dono hi impressive the. Har baar jab kaam diya, they delivered perfectly. Bilkul stress-free experience tha!"
+  },
+  {
+    name: "Anmol Nagpal",
+    title: "Digital Branding, GLA University Mathura",
+    quote: "Kubreshwar Media ne hamesha humare expectations ko exceed kiya hai. Chaahe fest ka promo ho ya digital campaign, inka kaam always impactful hota hai. Bohot hi creative team hai – samajhte hain brand ki vibe and deliver karte hain exactly what's needed. Keep up the great work!"
   }
 ];
 
